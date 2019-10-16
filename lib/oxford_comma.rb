@@ -1,5 +1,5 @@
 require 'pry'
 
 def oxford_comma(array)
-  puts array.join
+  puts array.join(",")
 end
