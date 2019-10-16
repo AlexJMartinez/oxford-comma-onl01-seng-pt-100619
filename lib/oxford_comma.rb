@@ -1,5 +1,6 @@
 require 'pry'
 
 def oxford_comma(array)
-  array.map {|array|}.join(",")
+  array.map
+   binding.pry
 end
