@@ -11,6 +11,7 @@ elsif array.length == 2
     #array.unshift << element
     #array.uniq.join(", ")
     last_element = array.pop
+    array.join(", ") << ", and " << last_element
   end
 
 #binding.pry
