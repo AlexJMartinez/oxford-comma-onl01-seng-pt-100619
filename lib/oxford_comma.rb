@@ -10,8 +10,8 @@ elsif array.length == 2
     #element = array[-1].insert(0, "and ")
     #array.unshift << element
     #array.uniq.join(", ")
-    
-end
+    last_element = array.pop
+  end
 
 #binding.pry
 end
