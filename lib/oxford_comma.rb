@@ -7,7 +7,7 @@ def oxford_comma(array)
 elsif array.length == 2
     return "#{array[0]} and #{array[1]}"
   else
-    return array.join(",") 
+    return array.join(", ") 
   end
 
 #binding.pry
