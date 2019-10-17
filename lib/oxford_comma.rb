@@ -10,7 +10,7 @@ elsif array.length == 2
     arr = array
     element = arr[-1].insert(0, "and ")
     array.unshift << element
-    array.uniq.join
+    array.uniq.join(",")
 end
 
 #binding.pry
