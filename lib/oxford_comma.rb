@@ -1,6 +1,6 @@
 require 'pry'
 
 def oxford_comma(array)
-  array.map {|element|}
+  array.map {|e|}
 binding.pry
 end
