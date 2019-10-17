@@ -9,7 +9,7 @@ elsif array.length == 2
   else
     arr = array
     element = arr[-1].insert(0, "and ")
-    array.shift << element
+    array.unshift << element
 end
 
 #binding.pry
