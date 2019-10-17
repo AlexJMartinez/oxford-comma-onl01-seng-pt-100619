@@ -6,5 +6,5 @@ def oxford_comma(array)
     return "#{array[0]} and #{array[1]}"
   end
   #array.map {|e| new_array << e}.join(",")
-binding.pry
+#binding.pry
 end
