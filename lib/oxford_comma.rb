@@ -9,8 +9,7 @@ elsif array.length == 2
   else
     element = array[-1].insert(0, "and ")
     array.pop << element
-
-  end
+end
 
 #binding.pry
 end
